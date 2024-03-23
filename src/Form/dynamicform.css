@@ -1,0 +1,26 @@
+.main_container{
+    background-color: aqua;
+    /* width: calc(min(1600px, 90vw)); */
+    margin:20px;
+    box-shadow: 0px 3px 4px #00000014;
+
+}
+.inner_container{
+    display:flex ;
+    gap: 10px;
+    margin-left:20px;
+}
+.inputfield{
+    margin-bottom: 10px;
+}
+.deletebutton{
+    background-color: red;
+    color: white;
+    margin-bottom: 10px;
+}
+.addbutton{
+    background-color: darkslateblue;
+    color:white;
+    padding:10px;
+    margin : 5px 10px;
+}
