@@ -5,7 +5,7 @@ import DynamicForm from './Form/DynamicForm';
 function App() {
   return (
     <div className="App">
-    <DynamicForm/>
+    <div className='dynamicComponent'><DynamicForm/></div>
     </div>
   );
 }
