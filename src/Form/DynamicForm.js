@@ -15,7 +15,7 @@ function DynamicForm() {
     setForms(updateUser);
   }
   function deleteHandler(i) {
-    let deleteField = [...forms]
+    let deleteField = [...forms];
     deleteField.splice(i, 1);
     setForms(deleteField);
   }
@@ -70,6 +70,20 @@ function DynamicForm() {
                 value={form.password}
               ></input>
             </div>
+            <label>Contact </label>
+            <div>
+              <input
+                type="tel"
+                id="phone-number"
+                name="phone-number"
+                pattern="[0-9]{10}"
+                required
+              />
+            </div>
+            <select id="country-code" name="country-code">
+              <option>Mobile Number</option>
+              <option value="+91">Landline</option>
+            </select>
             <div className="deletebutton">
               <button onClick={() => deleteHandler(i)}>X</button>
             </div>

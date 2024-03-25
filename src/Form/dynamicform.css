@@ -2,9 +2,10 @@
     box-shadow: 0px 3px 4px #00000014;
     border : 3px solid darkslateblue;
     border-radius: 10px;
-    width:70%;
+    width:auto;
     margin-top: 20px;
     background-color: antiquewhite;
+    padding : 20px;    
 }
 h2{color: darkslateblue; font-style:italic}
 .inner_container{
